@@ -1,0 +1,80 @@
+
+.home{
+
+	width: 100%;
+	height:100%;
+}
+
+.grid{
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 30vh;
+  margin-top:7em;
+}
+
+.white-block{
+height: 100%;
+background-color: blue;
+margin: 0;
+padding: 0;
+
+}
+
+.animated {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: grey;
+	padding: 0;
+	margin: 0;
+	background-color: green;
+}
+.animated  {
+
+	font-size: 320px;
+word-wrap: break-word;
+white-space: pre-line;
+}
+
+
+.text-desc{
+
+	width: 100%;
+
+}
+.text-desc p{
+	margin: 0;
+	width: 30vw;
+	color:grey;
+	font-size:1.2em;
+	direction: rtl;
+	margin-left:auto;
+	margin-right:15em;
+	margin-top:1em;
+}
+
+
+
+
+.skipper_car{
+	display: flex;
+	justify-content: center;
+margin-left: 2em;
+margin-top: 10px;
+}
+
+
+.img-show{
+	position: fixed;
+	left:120px;
+	top:70px;
+	display: block;
+	width: 500px;
+	height: 500px;
+	z-index: 2;
+	
+
+
+
+}

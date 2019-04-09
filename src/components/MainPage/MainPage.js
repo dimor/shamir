@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainPage.css';
+import Home from './Home/Home.js';
 
 const MainPage = ()=>{
 	return(
@@ -7,7 +8,7 @@ const MainPage = ()=>{
 
 
 		<div className='main_page'>
-
+             	<Home />
 		</div>
 
 
