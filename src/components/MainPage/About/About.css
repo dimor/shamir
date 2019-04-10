@@ -1,0 +1,56 @@
+.grid_about{
+
+  display: grid;
+  grid-template-columns:20% 38% 42%;
+    grid-template-rows: 67vh;
+  margin-top:7em;
+}
+
+.about_animated_block{
+	background-color: red;
+
+}
+.about_animated_block div{
+	background-color: white;
+	height: 35%;
+	width: 100%;
+	margin-top: 3em;
+}
+
+.paragraphs{
+
+background-color: green;
+
+}
+
+.paragraphs p{
+
+	direction: rtl;
+	color: grey;
+	font-size: 1.6em;
+
+}
+
+
+.about_animated_title{
+
+background-color: gold;
+
+}
+
+.about_animated_title div{
+
+background-color: black;
+width: 50%;
+height: 100%;
+margin: 0 0 0 auto ;
+
+}
+
+.floating-img img{
+position: fixed;
+width:500px;
+height:500px;
+right:70px;
+top:180px;
+}
