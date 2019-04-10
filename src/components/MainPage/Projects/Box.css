@@ -1,0 +1,22 @@
+.box{
+
+	width: 20%;
+	height: auto;
+	background-color: red;
+	border:1px solid blue;
+	margin: 0.5em;
+	padding: 0;
+	position: relative;
+
+}
+
+.box h2{
+	width: 100%;
+	padding: 0;
+	margin:auto 0;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+
+
+}
