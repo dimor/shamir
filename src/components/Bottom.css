@@ -5,9 +5,11 @@
 	padding: 0;
 	font-family: 'Rubik';
 	color:white;
-	font-size:25px;
+	font-size:1.5em;
+	height: 10%;
+ 	position: fixed;
+ 	bottom:0;
 
- 	position: relative;
 }
 
 /*

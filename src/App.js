@@ -9,9 +9,9 @@ class App extends Component {
   render() {
     return (
       <div> 
-      <MainNavigation />
-      <MainPage/>
-      <Bottom />
+      <MainNavigation className='a' />
+      <MainPage className='b'/>
+      <Bottom className='c' />
       </div>
     );
   }
