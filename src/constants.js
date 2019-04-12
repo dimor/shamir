@@ -22,3 +22,10 @@ export const MAIN_PAGE_PROJECTS_BOX8 = {'title':'dima','color':'lightred'};
 export const ROUTE_HOME ='HOME';
 export const ROUTE_PROJECTS ='PROJECTS';
 export const ROUTE_ABOUT ='ABOUT';
+
+
+export const MAIN_PAGE_HOME_ARRAY_IMAGES = [
+'./components/MainPage/Home/images/img0.png',
+'./components/MainPage/Home/images/img1.png',
+'./components/MainPage/Home/images/img2.png'
+];

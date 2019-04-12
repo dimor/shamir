@@ -31,7 +31,6 @@ const MainPage = (props)=>{
 	return(
 		<div>
 		{router()}
-
 		</div>
 		);
 }

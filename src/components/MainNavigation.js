@@ -7,8 +7,6 @@ const MainNavigation = ({changeRoute}) => {
 
 
 
-
-
   return (
     <div className="main_nav">
    	<ul>

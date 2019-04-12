@@ -2,10 +2,20 @@ import React from 'react';
 import AnimatedTitle from './AnimatedTitle.js';
 import './Home.css';
 import * as CONSTANTS from './../../../constants';
-import chair from './chair.png';
+
 import Carusel from './Carusel.js';
+import img from {CONSTANTS.MAIN_PAGE_HOME_ARRAY_IMAGES[defaultImage]};
 
 const Home=()=>{
+
+
+
+
+let defaultImage = 0;
+
+
+	{console.log(img)}
+
 
 	return(
 
@@ -17,10 +27,10 @@ const Home=()=>{
 				<div className='animated'></div>
 			</div>
 			<div className='text-desc'> <p>{CONSTANTS.MAIN_PAGE_HOME_TEXT}</p></div>
-			<div className='skipper_car'><Carusel  /></div>
+			<div className='skipper_car'><Carusel/></div>
 			
-			<img className='img-show' src={chair} />
-			
+			<img className='img-show' src={CONSTANTS.MAIN_PAGE_HOME_ARRAY_IMAGES[defaultImage]} />
+		
 
 		</div>
 
