@@ -6,9 +6,9 @@ const Carusel =()=>{
 
 	return(
 		<div>
-			  <span className="dot" onclick=""></span> 
-			  <span className="dot" onclick=""></span> 
-			  <span className="dot" onclick=""></span> 
+			  <span className="dot" ></span> 
+			  <span className="dot" ></span> 
+			  <span className="dot" ></span> 
 		</div>
 		);
 

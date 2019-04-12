@@ -17,3 +17,8 @@ export const MAIN_PAGE_PROJECTS_BOX5 = {'title':'dima','color':'green'};
 export const MAIN_PAGE_PROJECTS_BOX6 = {'title':'dima','color':'grey'};
 export const MAIN_PAGE_PROJECTS_BOX7 = {'title':'dima','color':'purple'};
 export const MAIN_PAGE_PROJECTS_BOX8 = {'title':'dima','color':'lightred'};
+
+
+export const ROUTE_HOME ='HOME';
+export const ROUTE_PROJECTS ='PROJECTS';
+export const ROUTE_ABOUT ='ABOUT';
