@@ -9,13 +9,13 @@
 
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 30vh;
+  grid-template-rows: 20vh;
   margin-top:7em;
 }
 
 .white-block{
 height: 100%;
-background-color: blue;
+background-color: white;
 margin: 0;
 padding: 0;
 
@@ -28,7 +28,8 @@ padding: 0;
 	color: grey;
 	padding: 0;
 	margin: 0;
-	background-color: green;
+	background-color: black;
+	border:1px dotted white;
 }
 .animated  {
 
@@ -46,12 +47,15 @@ white-space: pre-line;
 .text-desc p{
 	margin: 0;
 	width: 30vw;
-	color:grey;
-	font-size:1.2em;
+	color:#898989;
+	font-size:2em;
 	direction: rtl;
 	margin-left:auto;
-	margin-right:15em;
+	margin-right:12em;
 	margin-top:1em;
+	font-weight: 300;
+	 font-family: 'Assistant';
+
 }
 
 
@@ -60,8 +64,8 @@ white-space: pre-line;
 .skipper_car{
 	display: flex;
 	justify-content: center;
-margin-left: 2em;
-margin-top: 10px;
+margin-left: 12em;
+margin-top: 15px;
 }
 
 
@@ -70,11 +74,12 @@ margin-top: 10px;
 	left:120px;
 	top:70px;
 	display: block;
-	width: 500px;
-	height: 500px;
+	width: 35vw;
+	height: 60vh;
 	z-index: 2;
-	
-
+	border: 1px white dotted;
+	background-size: contain;
+	background-repeat: no-repeat;
 
 
 }

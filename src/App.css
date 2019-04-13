@@ -1,11 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,700&subset=hebrew');
+
 html,body{
 
-  background-color: black;
+  background-color: #0d0d0d;
   	margin:0;
 	padding: 0;
 	box-sizing: border-box;
 
 }
+
 
 
 .a{
@@ -26,3 +30,4 @@ html,body{
 font-family: 'rubik';
 src: url('./fonts/Rubik/Rubik-Black.ttf');
 }
+

@@ -1,12 +1,15 @@
 import React from 'react';
 import './Carusel.css';
-const Carusel =()=>{
+
+
+
+const Carusel =({changeImage})=>{
 
 
 
 const getImagePosition=(e)=>{
 	const pos = e.target.getAttribute('pos');
-	
+	changeImage(pos);
 }
 
 
