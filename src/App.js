@@ -38,10 +38,10 @@ class App extends Component {
 
 
     return (
-      <div> 
-      <MainNavigation className='a' changeRoute={this.changeRoute} />
-      <MainPage className='b' route={this.state.route}   />
-      <Bottom className='c' />
+      <div className='app-container'> 
+        <MainNavigation className='a' changeRoute={this.changeRoute} />
+        <MainPage className='b' route={this.state.route}   />
+        <Bottom className='c' />
       </div>
     );
   }

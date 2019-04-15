@@ -5,13 +5,28 @@ import './Box.css';
 const Box =(props)=>{
 
 const{title} = props.box;
-const{color} = props.box;
+const{path} = props.box;
+
+
+
+const margin = props.type==='upper'?'1.0em 4em 1.5em 1.5em':'1.0em 1.5em 1.5em 4em'
+
+const divStyle = {
+  backgroundImage: `url(${require(`${path}`)})`,
+  margin: margin
+};
+
 
 return(
 
-	<div className='box' style={{'backgroundColor':color}}>
 
-	<h2>{title}</h2>
+
+
+
+
+	<div className='box' style={divStyle}>
+
+	<img src={require( `${ path }` )} alt={title} />
 
 		</div>
 

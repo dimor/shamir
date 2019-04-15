@@ -2,7 +2,7 @@ import React from 'react';
 import * as CONSTANTS from './../../../constants';
 import './Projects.css';
 import Box from './Box.js'
-
+import titleImg from './images/title.png';
 const Projects =()=>{
 
 return(
@@ -11,13 +11,13 @@ return(
 
 		<div className="upper-div">
 
-		<Box box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX1} />
+		<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX1} />
 
-		<Box box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX2} />
+		<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX2} />
 
-		<Box box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX3} />
+		<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX3} />
 
-		<Box box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX4} />
+		<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX4} />
 
 		</div>
 
@@ -32,6 +32,12 @@ return(
 		<Box box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX8} />
 
 		</div>
+
+
+	<div className='animated-title-projects'> <img src={titleImg} /> </div>
+
+
+
 
 	</div>
 	);

@@ -12,8 +12,8 @@ const Bottom =()=>{
 		<div className='bottom'> 
 	
 			<ul>
-				<li> <a href='http://facebook.com'><FontAwesomeIcon icon={faFacebook} /></a> </li>
-					<li> <a href='http://instagram.com'><FontAwesomeIcon icon={faInstagram} /></a> </li>
+				<li> <a href='http://facebook.com'><FontAwesomeIcon size='2x' icon={faFacebook} /></a> </li>
+					<li> <a href='http://instagram.com'><FontAwesomeIcon size='2x' icon={faInstagram} /></a> </li>
 			</ul>
 
 		</div>

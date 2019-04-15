@@ -3,31 +3,20 @@
 
 html,body{
 
-  background-color: #0d0d0d;
+  background-color: black;
   	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+	border: 2px solid green;
+	height: 100%;
 
 }
 
 
-
-.a{
-
-}
-
-.b{
-
-}
-
-.c{
+.app-container div{
 
 
-}
+	
 
-
-@font-face {
-font-family: 'rubik';
-src: url('./fonts/Rubik/Rubik-Black.ttf');
 }
 
