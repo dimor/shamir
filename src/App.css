@@ -7,16 +7,17 @@ html,body{
   	margin:0;
 	padding: 0;
 	box-sizing: border-box;
-	border: 2px solid green;
+
 	height: 100%;
+	width: 100%;
 
 }
 
 
-.app-container div{
-
-
-	
+.app-container{
+	height: 100%;
+}
+#root{
+height: 100%;
 
 }
-

@@ -29,7 +29,7 @@ const MainPage = (props)=>{
 
 
 	return(
-		<div>
+		<div className='main-page'>
 		{router()}
 		</div>
 		);
