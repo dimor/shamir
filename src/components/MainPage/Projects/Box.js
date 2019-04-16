@@ -24,7 +24,7 @@ return(
 
 
 
-	<div className='box' style={divStyle}>
+	<div className='box'>
 
 	<img src={require( `${ path }` )} alt={title} />
 
