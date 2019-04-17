@@ -17,6 +17,8 @@ const initialState={
 
 
 
+
+
 class Home extends Component {
 
 
@@ -28,6 +30,7 @@ class Home extends Component {
 	}
 
 
+
  changeImage=(pos)=>{
 
 this.setState({currentImgPath:CONSTANTS.MAIN_PAGE_HOME_ARRAY_IMAGES[pos]})
@@ -35,10 +38,14 @@ this.setState({currentImgPath:CONSTANTS.MAIN_PAGE_HOME_ARRAY_IMAGES[pos]})
 }
 
 
+
+
+
 	render(){	
 
-		return(
 
+
+		return(
 
 		<div className='home-main-container'> 
 
@@ -62,8 +69,9 @@ this.setState({currentImgPath:CONSTANTS.MAIN_PAGE_HOME_ARRAY_IMAGES[pos]})
 
 					</div>
 
+		
 
-					<div className='home-image-div' style={{backgroundImage: `url(${require(`${this.state.currentImgPath}`)})`}}></div>      	
+					<div className='home-image-div' style={{backgroundImage: `url(${require(`${this.state.currentImgPath}`)})`}}></div>    	
 
 					</div>
 
