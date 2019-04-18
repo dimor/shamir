@@ -10,8 +10,8 @@
 	position: relative;
 
 	animation-name:fadein;
-	animation-duration: 1s;
-	animation-delay: 0s;
+	animation-duration: 2s;
+	animation-delay: 0;
 	animation-fill-mode:both;
 	animation-iteration-count: 1;
 }
@@ -32,6 +32,7 @@
 	grid-template-columns:100%;
     grid-template-rows: 1fr 1fr;
     grid-gap: 4em;
+ 	
 
 }
 
@@ -45,9 +46,11 @@ margin-left: auto;
 background-color: white;
 padding:0;
 direction: ltr;
+position: relative;
+overflow: hidden;
+
 
 }
-
 
 .inner-upper-div{
 
@@ -62,12 +65,36 @@ grid-template-columns:1fr 1fr 1fr 1fr;
 }
 
 
+.upper-div-animation{
+position: absolute;
+margin: 0;
+height: 100%;
+left :0;
+width: 35vw;
+background-color: white;
+z-index: 1;
+animation: movefromleft 1s 0s both linear;
+}
+
+@keyframes movefromleft {
+  from {left: -100em;}
+  to {left: 100em;}
+}
+
+@keyframes moveformright {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
 .bottom-div{
 
 height: 100%;
 width: 61%;
 background-color: white;
 direction: rtl;
+position: relative;
+overflow: hidden;
 }
 
 .inner-bottom-div{
@@ -80,6 +107,17 @@ grid-template-columns:1fr 1fr 1fr 1fr;
 grid-column-gap:0em; 
 
 
+}
+
+.bottom-div-animation{
+position: absolute;
+margin: 0;
+height: 100%;
+left :0em;
+width: 20vw;
+background-color: red;
+z-index: 1;
+position: absolute;
 }
 
 

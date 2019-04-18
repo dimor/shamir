@@ -13,6 +13,7 @@ return(
 		<div className='projects-inner-container'>
 
 			<div className="upper-div">
+				<div className='upper-div-animation'> </div>
 
 				<div className='inner-upper-div'>
 
@@ -30,6 +31,7 @@ return(
 
 			<div className="bottom-div">
 
+				<div className='bottom-div-animation'> </div>
 
 				<div className='inner-bottom-div'>
 
