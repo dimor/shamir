@@ -79,8 +79,8 @@ margin-right: .5em;
     overflow: hidden;
     text-overflow: clip;
   	animation-name:text;
-	animation-duration: 1s;
-	animation-delay: 1.5s;
+	animation-duration: 1.3s;
+	animation-delay: 1.2s;
 	animation-fill-mode:both;
     margin: 0.6em; 
 }
@@ -121,9 +121,9 @@ margin-right: .5em;
 	z-index: 2;
 	background-size: contain;
 	background-repeat: no-repeat;
-  	animation-name:trasactionx;
+  	animation-name:trasactionx,move;
 	animation-duration: 1s,1s;
-	animation-delay: 1.7s,3s;
+	animation-delay: 1.4s,3s;
 	animation-fill-mode:both,none;
 	animation-iteration-count: 1, infinite;
 
