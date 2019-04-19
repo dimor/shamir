@@ -12,26 +12,47 @@ return(
 
 		<div className='projects-inner-container'>
 
-			<div className="upper-div">
-				<div className='upper-div-animation'> </div>
 
-				<div className='inner-upper-div'>
+			<div className='main-upper'> 
 
-					<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX1} />
+				<div className="upper-div">
 
-					<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX2} />
 
-					<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX3} />
+					<div className='upper-div-animation'> </div>
 
-					<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX4} />
+
+						<div className='inner-upper-div'>
+
+							<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX1} />
+
+							<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX2} />
+
+							<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX3} />
+
+							<Box type='upper' box={CONSTANTS.MAIN_PAGE_PROJECTS_BOX4} />
+
+						</div>
 
 				</div>
 
 			</div>
 
+	
+
+
+
+
+
+		<div className='main-bottom'>
+
+
+
+
+
 			<div className="bottom-div">
 
-				<div className='bottom-div-animation'> </div>
+			
+		    <div className='bottom-div-animation'> </div>
 
 				<div className='inner-bottom-div'>
 
@@ -46,6 +67,10 @@ return(
 				</div>
 
 			</div>
+
+		</div> 
+
+	
 			
 		</div>
 

@@ -27,54 +27,66 @@
 
 
 	width: 100%;
-	height: 75%;
+	height: 55%;
 	display: grid;
 	grid-template-columns:100%;
     grid-template-rows: 1fr 1fr;
     grid-gap: 4em;
+   
+    margin: 0;
  	
 
 }
 
 
-.upper-div{
+.main-upper{
 
-
-height: 100%;
-width: 80%;
-margin-left: auto;
-background-color: white;
-padding:0;
-direction: ltr;
-position: relative;
 overflow: hidden;
-
-
 }
 
-.inner-upper-div{
-
-grid-column-gap: 0;
-margin: 0;
-height: 100%;
-width: 57vw;
-margin-left: 1em;
-display: grid;
-grid-template-columns:1fr 1fr 1fr 1fr;
-
-}
 
 
 .upper-div-animation{
 position: absolute;
 margin: 0;
 height: 100%;
-left :0;
+left:0em;
 width: 35vw;
 background-color: white;
 z-index: 1;
 animation: movefromleft 1s 0s both linear;
 }
+
+
+.upper-div{
+height: 100%;
+width: 80%;
+margin-left: auto;
+background-color: black;
+padding:0;
+direction: ltr;
+position: relative;
+
+
+}
+
+.inner-upper-div{
+grid-column-gap: 0;
+
+height: 100%;
+width: 56vw;
+padding-right:40em;
+padding-left: 1em;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+opacity: 1;
+background-color: white;
+animation: fadein 1s 0.4s both linear;
+
+
+}
+
+
 
 @keyframes movefromleft {
   from {left: -100em;}
@@ -87,41 +99,55 @@ animation: movefromleft 1s 0s both linear;
 }
 
 
-.bottom-div{
 
+.main-bottom{
+
+overflow: hidden;
+}
+
+
+.bottom-div{
+ 
 height: 100%;
 width: 61%;
-background-color: white;
 direction: rtl;
 position: relative;
-overflow: hidden;
+background-color: black;
+
 }
 
 .inner-bottom-div{
 
 height: 100%;
-width: 58vw;
+width: 61vw;
 display: grid;
-margin-right: 1em;
+padding-right: 1em;
 grid-template-columns:1fr 1fr 1fr 1fr;
-grid-column-gap:0em; 
-
-
+grid-column-gap:0em;
+background-color: white;
+animation: fadein 1s 0.4s both linear;
 }
+
+
 
 .bottom-div-animation{
 position: absolute;
 margin: 0;
 height: 100%;
-left :0em;
-width: 20vw;
-background-color: red;
+width: 35vw;
+right:0em;
+background-color: white;
 z-index: 1;
 position: absolute;
+animation: movefromright 1s 0s both linear;
 }
 
 
 
+@keyframes movefromright {
+  from {right: -100em;}
+  to {right : 100em;}
+}
 
 .animated-title-projects {
 	position: absolute;
@@ -129,8 +155,8 @@ position: absolute;
 	right: 1em;
 	width: 10vw;
 	height: 80vh;
-
 	z-index: 3;
+	animation: fadein 3s 0.4s both linear;
 }
 
 .animated-title-projects img {
