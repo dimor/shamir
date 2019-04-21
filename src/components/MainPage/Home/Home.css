@@ -102,7 +102,7 @@ margin-right: .5em;
 
 .home-text-div p{
 	color:white;
-	font-size:1.4em;
+	font-size:2em;
 	direction: rtl;
 	font-weight: 300;
 	font-family: 'Assistant';
@@ -121,12 +121,12 @@ margin-right: .5em;
 	z-index: 2;
 	background-size: contain;
 	background-repeat: no-repeat;
-  	animation-name:trasactionx,move;
-	animation-duration: 1s,1s;
+  	animation-name:trasactionx,floating;
+	animation-duration: 1s,3s;
 	animation-delay: 1.4s,3s;
 	animation-fill-mode:both,none;
 	animation-iteration-count: 1, infinite;
-
+	animation-timing-function:ease,ease-in-out;
 }
 
 /* The animation code */
@@ -154,7 +154,14 @@ margin-right: .5em;
 
 @keyframes move{
   from {left : 9em;right:0em;top:-3em;bottom: 0em}
-  to {left : 9.2em;right:0.1em;top:-2.9em;bottom: 0.1em}
+  to {left : 9.1em;right:0.1em;top:-2.9em;bottom: 0.1em}
+}
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 5px); }
+    to   { transform: translate(0, -0px); }    
 }
 
 

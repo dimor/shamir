@@ -1,8 +1,8 @@
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 14px;
-  width: 14px;
+  height: 17px;
+  width: 17px;
   margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
