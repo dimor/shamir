@@ -23,12 +23,14 @@
 
 
 
+
 .bottom ul li{
 display: inline;
+margin:2px;
 }
 
 .bottom ul li a {
   color: inherit;
-  text-decoration: none; /* no underline */
-}
+  text-decoration: none; 
 
+}

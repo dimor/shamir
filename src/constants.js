@@ -1,6 +1,7 @@
 export const MAIN_MENU_ABOUT_STRING ='אודות'; 
 export const MAIN_MENU_PROJECTS_STRING ='פרוייקטים'; 
 export const MAIN_MENU_PRODUCTS_STRING ='מוצרים'; 
+export const MAIN_MENU_HOME_STRING = 'ראשי'
 export const MAIN_PAGE_HOME_TEXT = "שמיר פרימיום הינה חברה מקוצעית וותיקה הפועלת בשוק הישראלי כבר מעל 20 שנה. החברה מתמחה בייצור ושיווק פריטי ריהוט מוסדי המתואם לצרכיי המוסד. תחומי פעילות מרכזיים שהם אנחנופועלים הם כיתות לימוד, מעבדות,אודיטוריומיום, ספריות, מועדונים, חדיר אוכלי, חדרי לינה ומשרדים. פעילותנו פרוסה בכל רחבי הארץ.";
 
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import MainNavigation from './components/MainNavigation.js';
-import Bottom from './components/Bottom.js';
+
+import Bottom from './components/Bottom/Bottom.js';
 import MainPage from './components/MainPage/MainPage.js';
 import * as CONSTANTS from './constants';
 import mouse from './cursor.png';
@@ -37,7 +37,7 @@ class App extends Component {
 
     return (
       <div className='app-container' style={{cursor: `url(${mouse})` }} > 
-        <MainNavigation className='a' changeRoute={this.changeRoute} />
+   {/*     <MainNavigation className='a' changeRoute={this.changeRoute} />*/}
         <MainPage className='b' route={this.state.route}   />
         <Bottom className='c' />
       </div>

@@ -7,3 +7,51 @@ height: 80%;
 width: 100%;
 
 }
+
+
+.main-nav-menu-btn{
+
+
+position: fixed;
+top:0;
+right:0;
+margin: 1em;
+z-index: 4;
+
+
+}
+
+.main-nav-logo{
+
+position: fixed;
+top:0;
+left:0;
+margin: 1em;
+
+
+
+}
+
+.my-menu-content  a {
+	color:white;
+	 display: block;
+	 text-align: center;
+	text-decoration:none;
+	font-size: 1.5em;
+}
+
+
+
+.my-menu-content  {
+	
+  background-color:black;
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 15px; /* Add some padding */
+/* Remove underline from links */
+}
+
+.opacity{
+	opacity:1;
+
+}

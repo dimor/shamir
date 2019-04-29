@@ -1,5 +1,5 @@
 import React from 'react';
-import * as CONSTANTS from '../constants';
+import * as CONSTANTS from '../../constants';
 import './Bottom.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons';

@@ -3,7 +3,20 @@ import * as CONSTANTS from './../../../constants';
 import './Projects.css';
 import Box from './Box.js'
 import titleImg from './images/title.png';
+import Lottie from 'react-lottie';
+import animationData from './animations/data.json';
 const Projects =()=>{
+
+
+
+
+   const defaultOptions = {
+      loop: false,
+      autoplay: true, 
+      animationData: animationData
+    };
+
+
 
 return(
 
@@ -46,9 +59,6 @@ return(
 		<div className='main-bottom'>
 
 
-
-
-
 			<div className="bottom-div">
 
 			
@@ -75,7 +85,7 @@ return(
 		</div>
 
 
-	<div className='animated-title-projects'> <img src={titleImg} /> </div>
+	<div className='animated-title-projects'> <Lottie  options={defaultOptions} /> </div>
 
 
 

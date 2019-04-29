@@ -1,4 +1,5 @@
 
+
 .home-main-container{
 
 	width: 100%;
@@ -6,6 +7,8 @@
 	
 	box-sizing: border-box;
 	position: relative;
+
+	overflow: hidden;
 }
 
 .home-inner-container{
@@ -18,15 +21,18 @@ margin: auto;
 top:0;
 bottom: 0;
 
+
 }
 
 
 .home-main-div-grid{
-
+  width: 100%;
+  height:50%;	
   display: grid;
   grid-template-columns: 30% 70%;
-   grid-template-rows: auto;
+  grid-template-rows: 100% ;
   background-color: inherit;
+ 
 }
 
 
@@ -48,34 +54,30 @@ animation-fill-mode:both;
 
 width: 100%;
 height:100%;
-
-animation-name:fadein;
-animation-duration:4s;
-animation-delay: 0s;
-animation-fill-mode:both;
+padding: 0;
+margin: 0;
+display: none;
 }
 
-.home-logo-animated  img{
 
-width: 98%;
-height: auto;
-float: right;
-margin-right: .5em;
-
-
+.shamir{
+position: fixed;
+width: 75vw;
+right: -4em;
 
 }
+
+
 
 
 .home-text-div{
-
+	height: auto;
 	width: 35%;
 	direction: rtl;
 	right: 12em;
 	display: block;
 	position: absolute;
-	
-	height: 60%;
+
     overflow: hidden;
     text-overflow: clip;
   	animation-name:text;
@@ -92,8 +94,6 @@ margin-right: .5em;
 
 	float: left;
 	direction: ltr;
-
-
 	animation-name:fadein;
 	animation-duration: 1s;
 	animation-delay: 2s;
@@ -102,7 +102,7 @@ margin-right: .5em;
 
 .home-text-div p{
 	color:white;
-	font-size:2em;
+	font-size:1.8em;
 	direction: rtl;
 	font-weight: 300;
 	font-family: 'Assistant';
