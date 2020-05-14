@@ -1,0 +1,14 @@
+
+.social_icons li{
+	display: block;
+    list-style: none;
+    display: inline;
+    margin:2px;
+    color:white;
+}
+
+.social_icons a{
+
+    color: white;
+    text-decoration: none;
+}

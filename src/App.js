@@ -1,48 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-
-import Bottom from './components/Bottom/Bottom.js';
-import MainPage from './components/MainPage/MainPage.js';
-import * as CONSTANTS from './constants';
-import mouse from './cursor.png';
-
-const initialState={
-
-	route:CONSTANTS.ROUTE_HOME
-
-}
+import UpperContainer from './components/upper_container/upper_container.component';
+import PageContainer from './components/page_container/page_container.component';
+import BottomContainer from './components/bottom_container/bottom_container.component';
+import {BrowserRouter as Router} from "react-router-dom";
 
 
-
-class App extends Component {
-
-	constructor(){
-		super();
-
-		this.state= initialState;
-
-	}
-
-	 changeRoute=(distanation)=>{
-
-		this.setState({route:distanation});
-	}
-
-
-
-  render() {
-
-
-
+const App =()=>{
 
     return (
-      <div className='app-container' style={{cursor: `url(${mouse})` }} > 
-   {/*     <MainNavigation className='a' changeRoute={this.changeRoute} />*/}
-        <MainPage className='b' route={this.state.route}   />
-        <Bottom className='c' />
-      </div>
+
+        <div className='main_page_container'>
+          <Router>
+            <UpperContainer />
+            <PageContainer />
+            <BottomContainer />
+          </Router>
+        </div>
     );
   }
-}
 
 export default App;

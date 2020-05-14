@@ -1,0 +1,46 @@
+.navigation_bar{
+
+    font-family: 'Assistant';
+	color:white;
+	font-weight: 700;
+    font-size:1.5em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+
+.navigation_bar ul{
+    width: 50%;
+    height:100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.custom a{
+    
+   font-size:1.17em;
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .navigation_bar{
+
+      font-size: 1em;
+        
+    }
+
+    .navigation_bar ul{
+        width: 70%;
+    }
+
+}

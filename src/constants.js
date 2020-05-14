@@ -24,8 +24,6 @@ export const MAIN_PAGE_PROJECTS_BOX7 = {'title':'ארונות','path':'./images/
 export const MAIN_PAGE_PROJECTS_BOX8 = {'title':'מחיצות','path':'./images/partitions.png'};
 
 
-
-
 export const ROUTE_HOME ='HOME';
 export const ROUTE_PROJECTS ='PROJECTS';
 export const ROUTE_ABOUT ='ABOUT';
