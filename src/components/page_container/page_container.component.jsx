@@ -17,7 +17,7 @@ const PageContainer=()=>{
         <div className='page_container'>
         
             <Switch>
-                <Route exact path='/'><HomePage /></Route>
+                <Route exact path='/shamir'><HomePage /></Route>
                 <Route exact path='/about'><AboutPage /></Route>
                 <Route exact path='/products'><ProductsPage /></Route>
             </Switch>

@@ -31,7 +31,7 @@ return(
 			<li>|</li>
 			<li><ActiveLink to="/products" label={CONSTANTS.MAIN_MENU_PRODUCTS_STRING} /></li>
 			<li>|</li>
-			<li><ActiveLink to="/" label={CONSTANTS.MAIN_MENU_HOME_STRING} activeOnlyWhenExact={true} /></li>
+			<li><ActiveLink to="/shamir" label={CONSTANTS.MAIN_MENU_HOME_STRING} activeOnlyWhenExact={true} /></li>
 		</ul>
         
     </div>
