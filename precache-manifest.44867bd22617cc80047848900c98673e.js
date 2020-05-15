@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8093140ff5f11a1d88bb",
+    "revision": "f880c2b5703c957cf45b",
     "url": "/shamir/static/css/main.8f6f2013.chunk.css"
   },
   {
-    "revision": "8093140ff5f11a1d88bb",
-    "url": "/shamir/static/js/main.d9f0945c.chunk.js"
+    "revision": "f880c2b5703c957cf45b",
+    "url": "/shamir/static/js/main.a0ce7525.chunk.js"
   },
   {
     "revision": "954c545cbdc1f5e0f295",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/shamir/static/media/title.614a25b3.png"
   },
   {
-    "revision": "f88af497d3c994a83a35bb2537ff040d",
+    "revision": "0437eab7af3eebb3c9e311b0e6ea8980",
     "url": "/shamir/index.html"
   }
 ];
