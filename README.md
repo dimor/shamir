@@ -8,7 +8,7 @@
 
 a prepositional landing web page for furniture business.
 
-### contain three sections:
+### Sections:
 * Home -  main home page.
 * Products - list of products the company is producing and manufacturing.
 * About - a description page of the business.
