@@ -10,6 +10,7 @@ import Carusel from './carusel/carusel.component.jsx';
 const HomePage =()=>{
 
 
+
     const [currentImgPath, changeImage] = useState(CONSTANTS.MAIN_PAGE_HOME_ARRAY_IMAGES[0]);
 
 
@@ -24,6 +25,9 @@ const HomePage =()=>{
         autoplay: true, 
         animationData: animationData
       };
+
+
+  
 
     return(
             <div className='home-main-container'> 

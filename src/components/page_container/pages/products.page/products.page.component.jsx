@@ -14,7 +14,7 @@ const ProductsPage =()=>{
         animationData: animationData
       };
 
-
+  
 
 return(
 

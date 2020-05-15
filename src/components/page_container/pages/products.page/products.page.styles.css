@@ -161,11 +161,11 @@ animation: movefromright 1s 0s both linear;
 
 
 
-@media screen and (max-width: 480px) {
+@media (max-device-width: 500px) {
  
 	.animated-title-projects {
-		position: fixed;
-		top:-9em;
+		position: absolute;
+		top:-14em;
 		left:8em;
 		width: 30vw;
 		transform: rotate(90deg);
@@ -202,3 +202,39 @@ animation: movefromright 1s 0s both linear;
 		right:1em;
 	}
 }
+
+/* @media screen and (max-width: 768px) {
+ 
+	.animated-title-projects {
+		position: fixed;
+		top:-11em;
+		left:13em;
+		width: 30vw;
+		transform: rotate(90deg);
+	}
+	
+	.projects-inner-container{
+		height: 33%;
+		grid-gap: 3em;	
+	}
+	
+	.upper-div{
+		margin-left:.3em;
+	}
+	
+	.inner-upper-div{
+		width: 95vw;
+		padding-right:35em;
+		padding-left: -1em;
+	}	
+
+	.bottom-div{
+		width: 100%;
+	}
+		
+	.inner-bottom-div{
+		width: 95vw;
+		padding-right: 1em;
+	}
+		
+} */
