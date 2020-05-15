@@ -6,7 +6,7 @@
 
 # **SHAMIR**
 
-a prepositional landing web page for furniture business.
+a landing web page for furniture business.
 
 ### Sections:
 * Home -  main home page.
@@ -14,11 +14,11 @@ a prepositional landing web page for furniture business.
 * About - a description page of the business.
 
 ### Technologies:
-all of the project was coded with React;
+The project was coded with React.
 
 **libraries:**
 * React Router - Navigation
-* Lottie/Bodymovin - Parses Adobe After Effects animations as JSON with Bodymovin and then render with Lottie to the web page.
+* Lottie/Bodymovin - Parses Adobe After Effects animations as JSON with Bodymovin, and then render it with Lottie to the web page.
 
 ### Design:
 all the animations and overall design was created by [reutgohar@gmail.com](reutgohar@gmail.com)
