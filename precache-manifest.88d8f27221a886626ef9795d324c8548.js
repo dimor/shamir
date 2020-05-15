@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/shamir/static/media/title.614a25b3.png"
   },
   {
-    "revision": "0437eab7af3eebb3c9e311b0e6ea8980",
+    "revision": "31107d961d09db05aa6d21321f8fa514",
     "url": "/shamir/index.html"
   }
 ];
